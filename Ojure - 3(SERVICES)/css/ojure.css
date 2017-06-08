@@ -1,0 +1,225 @@
+body {
+  padding-bottom: 30px;
+  width: 100%;
+    margin:0 auto;
+    display: block;
+
+}  
+
+ 
+header {
+  height:650px;
+   background: url("../images/bg.jpg") center;
+  background-size: cover;
+  color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+
+}
+
+
+
+.navbar-inverse .navbar-brand {
+    color: #fed136;
+    font-family:'Lobster', cursive;
+    font-size: 3em
+}
+
+.navbar-inverse .nav li a {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+
+.navbar-inverse .nav li a:hover, .navbar-inverse .nav li a:focus {
+    color: #fed136;
+    outline: 0;
+}
+
+
+.navbar-inverse .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.navbar-inverse .navbar-toggle {
+  background-color:#fed136;
+  border-color: #fed136;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #fed136;
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width:1800px) {
+
+  nav.navbar{
+  background-color:transparent;
+  border: none;
+   //Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+  min-height: 15px;
+background-color: #222;
+height: 65px;
+}
+
+
+}
+ 
+
+
+
+
+@media (max-width: 767px){
+
+  nav.navbar {
+    background-color: #222;
+  }
+
+}
+
+
+
+/** CSS FOR WELCOME NOTE **/
+
+
+.intro-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  padding-top: 270px;
+  margin-bottom: 10px;
+      
+    
+}
+.text-in {
+    text-align: center;
+    font-size: 21px;
+
+}
+
+.baby-button {
+    display: inline;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 20px 40px;
+    margin-top: 20px;
+
+}
+
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default {
+  color:#fff;
+  background-color:#222;
+  border-color:#222;
+}
+
+
+
+.btn-danger {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border: 2px solid;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 20px 40px;
+    margin-top: 20px;
+
+}
+
+.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open .dropdown-toggle.btn-danger {
+    color:#222;
+    background-color:#fff;
+    border-color:#fff;
+}
+
+
+
+
+@media (max-width:480px) {
+
+    .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+   text-align: center;
+   padding-top: 150px;
+   margin-bottom: 10px;
+      
+    
+}
+.text-in {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+}
+
+/** CSS FOR ALL **/
+
+.section-header h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.colored-line {
+  background:#fed136;
+  margin: auto;
+  height: 2px;
+  width: 100px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+
+
+/** CSS FOR OUR SERVICES **/
+
+.our-services {
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
